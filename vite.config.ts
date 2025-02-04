@@ -10,5 +10,13 @@ export default defineConfig({
       name: "atom",
       fileName: "index",
     },
+    rollupOptions: {
+      external: ["react"],
+      output: {
+        globals: {
+          react: "react",
+        },
+      },
+    },
   },
 });
