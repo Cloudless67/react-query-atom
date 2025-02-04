@@ -9,6 +9,16 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "react",
+    "state",
+    "management",
+    "atom",
+    "query",
+    "parameters"
+  ],
+  "author": "Taehoon Jang",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
