@@ -1,6 +1,6 @@
 {
   "name": "react-query-atom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A minimal state management library for React, bound with URL query parameters.",
   "type": "module",
   "main": "dist/index.js",
@@ -19,6 +19,10 @@
   ],
   "author": "Taehoon Jang",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cloudless67/react-query-atom"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
